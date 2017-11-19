@@ -1,0 +1,30 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>How to define a custom Color Scheme for Windows 10 XAML controls - Developer Express Example</title>
+<style>
+html, body, form
+{
+	font-family: Tahoma, Arial, Verdana;
+    font-size: small;
+    color: #303440;
+}
+h1 {
+	font-size: 125%;
+	font-weight: normal;
+	color: Black;
+	letter-spacing: 101%;
+}
+</style>
+</head>
+<body>
+<h1>Developer Express Example<br />How to define a custom Color Scheme for Windows 10 XAML controls</h1>
+<p>This example illustrates how to implement a custom Color Scheme and use it in your application. In the current implementation, the application supports two themes (Generic and Custom), which can be changed by using the corresponding ComboBox. 
+
+The Custom theme is defined as a separate ResourceDictionary with the corresponding value in the x:Key property. This ResourceDictionary is declared within a separate file and then used in the Source property of the GlobalColorSchemeOverrider class.
+
+All colors available for overriding are listed in separate files within the installation folder with our controls: <DevExpress Installation Folder>\Components\System\UAP\ColorThemes</p>
+<p>You can find sample updates and versions for different programming languages here:<br /><a href="http://www.devexpress.com/example=T404909">http://www.devexpress.com/example=T404909</a>.</p>
+</body>
+</html>
