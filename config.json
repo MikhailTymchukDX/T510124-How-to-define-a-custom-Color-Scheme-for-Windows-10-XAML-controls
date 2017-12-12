@@ -1,5 +1,5 @@
 {
-  "autoGenerateVb": false,
+  "autoGenerateVb": true,
   "platform": "Windows 10 Apps",
   "product": "Controls for Windows 10 Apps",
   "runOnWeb": false,
