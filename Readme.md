@@ -10,3 +10,4 @@ ThemeManager.RegisterColorScheme(new CustomColorScheme("Custom"));
 
 
 <br>All colors available for overriding are listed in separate files within the installation folder with our controls: <DevExpress Installation Folder><strong><u>\Components\System\UAP\ColorThemes<br><br></u></strong>If you wish to do this in an older version, refer to the following example: <a href="https://www.devexpress.com/Support/Center/p/T404909">T404909 - How to define a custom Color Scheme for Windows 10 XAML controls</a>. 
+<br />
